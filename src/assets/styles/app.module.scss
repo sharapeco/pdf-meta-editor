@@ -1,0 +1,22 @@
+.dropArea {
+  flex: 1;
+  padding: 1em;
+  background: #f8f8f8;
+  border: dashed .5em #ccc;
+}
+
+.app {
+  flex: 1;
+  flex-direction: row;
+}
+
+.side {
+  height: 100vh;
+  width: 15em;
+  border-right: solid 1px #ddd;
+  overflow-y: auto;
+}
+
+.main {
+  flex: 1;
+}
