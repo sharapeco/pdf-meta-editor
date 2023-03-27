@@ -1,5 +1,5 @@
 import { usePDF } from '@/hooks/usePDF';
-import { FC, useEffect, useState } from 'react';
+import { FC, useEffect, useMemo, useState } from 'react';
 import { basename } from "path"
 import { PDFMeta, savePDFMeta } from '@/lib/pdf';
 import { useDataURI } from '@/hooks/useDataURI';
@@ -17,7 +17,7 @@ export const Editor: FC<Prop> = (props) => {
     author: "",
   })
   const [saving, setSaving] = useState(false)
-  const previewURI = URL.createObjectURL(file);
+  const previewURI = useMemo(() => URL.createObjectURL(file), [file]);
 
   useEffect(() => {
     setInput(pdf)
