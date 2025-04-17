@@ -1,6 +1,6 @@
 # PDF Meta Editor
 
-<p style="text-align: center">
+<p align="center">
   <img alt="" src="electron/resources/iconset/256x256.png" width="256" height="256">
 </p>
 
