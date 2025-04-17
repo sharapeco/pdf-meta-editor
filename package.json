@@ -1,6 +1,6 @@
 {
   "name": "pdf-meta-editor",
-  "productName": "Electron",
+  "productName": "PDF Meta Editor",
   "private": true,
   "version": "1.0.0",
   "description": "PDF meta editing GUI frontend for ExifTool.",
